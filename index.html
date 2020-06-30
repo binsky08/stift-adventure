@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+    <script src="js/pixi.min.js"></script>
+  </head>
+  <body>
+    <script type="text/javascript">
+        let type = "WebGL"
+        if(!PIXI.utils.isWebGLSupported()){
+            type = "canvas"
+        }
+
+        PIXI.utils.sayHello(type)
+    </script>
+  </body>
+</html>
+<script src="js/stift.js"></script>
